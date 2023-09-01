@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(252, 242, 230);
+    margin: auto 40px;
+    margin-top:40px;
+}
+
+.primertitulo{
+    color:rgb(9, 5, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    background-color: rgb(251, 228, 201);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px;
+}
+
+.titulillo{
+    padding:10px;
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(241, 221, 176);
+}
+
+.accordion-item .accordion-header .accordion-button{
+    background-color:rgb(251, 233, 212);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.accordion-item .accordion-header .accordion-button:hover{
+    background-color: rgb(254, 255, 240);
+}
+
+h5{
+    color: black;
+    background-color: rgba(245, 245, 245, 0.537);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h6{
+    color: black;
+    background-color: rgba(245, 245, 245, 0.537);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.accordion-body{
+    background-color: rgb(217, 216, 213);
+}
+
+#carousel {
+    max-width: 600px; 
+    margin: 0 auto; /* Centra el carrusel en la página */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* Cambia la posición de manera absoluta */
+    position: absolute;
+    top: 50%; /* Alinea verticalmente al centro */
+    transform: translateY(-50%); /* Ajusta verticalmente en función del tamaño del botón */
+  }
+  
+  /* Ajusta el espacio entre los botones y los bordes */
+  .carousel-control-prev {
+    left: 340px; /* Cambia la posición izquierda */
+    background-size: 15px 15px; /* Cambia el tamaño del ícono */
+    width: 15px; /* Cambia el ancho del ícono */
+    height: 15px; /* Cambia la altura del ícono */
+  }
+  
+  .carousel-control-next {
+    right: 340px; /* Cambia la posición derecha */
+    background-size: 15px 15px; /* Cambia el tamaño del ícono */
+    width: 15px; /* Cambia el ancho del ícono */
+    height: 15px; /* Cambia la altura del ícono */
+  }
+
+  .card-title{
+    background-color: rgb(217, 216, 213);
+    padding: 6px;
+  }
+
+.pie{
+    background-color:rgb(251, 233, 212);
+    margin-bottom: 0%;
+    padding: 0;
+}
+
